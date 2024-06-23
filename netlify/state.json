@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Osaka",
+			"country": {
+				"code": "JP",
+				"name": "Japan"
+			},
+			"subdivision": {
+				"code": "27",
+				"name": "Ōsaka"
+			},
+			"timezone": "Asia/Tokyo",
+			"latitude": 34.6986,
+			"longitude": 135.5079
+		},
+		"timestamp": 1719143038693
+	}
+}
