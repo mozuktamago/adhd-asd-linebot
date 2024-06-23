@@ -1,0 +1,11 @@
+[build]
+  command = "pip install -r requirements.txt"
+  functions = "functions"
+
+[functions]
+  directory = "functions"
+
+[[redirects]]
+  from = "/callback"
+  to = "/.netlify/functions/app"
+  status = 200
