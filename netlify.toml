@@ -1,11 +1,11 @@
 [build]
-  command = "pip install -r requirements.txt"
+  command = "python -m pip install -r requirements.txt"
   functions = "functions"
 
 [functions]
   directory = "functions"
 
 [[redirects]]
-  from = "/callback"
+  from = "/*"
   to = "/.netlify/functions/app"
   status = 200
